@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <header >
+        <div class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pokémon_logo.svg" alt="logo pokemon" >
+            <form action="#" class="search">
+                <input type="search" name="pokemonName" class="search-input" placeholder="Pesquise sobre um pokemon usando nome ou número pokedex">
+                <button class="search-button"onclick="buscar()">Search</button>
+            </form>
+        </div>
+    </header>
+    
+    <div class="bloco" id="conteudo" >
+        <div class="flex-item">
+            <h2 class="pokemon-name" id="nome">Pokemon</h2>
+            <p class="pokemon-type">
+                Nº <span id="numero">0</span> - Type: <span id="type"></span>
+            </p>
+            <img class="pokemon-image" src="" id="pic" alt="">
+            <p class="moves">
+                <span>moves</span>
+            </p>
+            <p id="pokemon-moves">
+                <br>
+            </p>
+            <p id="pokemon-weight">
+
+            </p>
+            <p id="pokemon-height">
+            </p>
+        </div>
+    </div>
+    <span class="error">Pokemon não encontrado</span>
+
+</body>
+<script src="assets/js/script.js"></script>
+</html>
