@@ -48,15 +48,9 @@ function loadPokemon(name){
 }
 const nome =  window.location.search;
 
-//document.getElementById('procurar').onclick = loadPokemon(nome.split('=')[1]);
+document.getElementById('procurar').onclick = loadPokemon(nome.split('=')[1]);
 
-function busca(nome) {
-    onclick = loadPokemon(nome.split('=')[1]);
-    return true;
-}
 
-busca(nome);
-    
 
 
 
